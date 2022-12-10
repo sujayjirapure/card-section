@@ -1,0 +1,88 @@
+
+
+.card-container{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+.card{
+    width: 250px;
+    height: 360px;
+}
+#card1{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(253, 154, 49);
+}
+#card2{
+    background-color: rgb(7, 121, 114);
+}
+#card3{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(10, 73, 83);
+}
+img{
+    width: 50px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.text{
+    color: white;
+    margin: 30px;
+    
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    border-radius: 40px;
+    width: 90px;
+    height: 35px;
+    margin-top: 25px;
+}
+#btn1{
+    border: 2px solid rgb(253, 154, 49);
+    color: rgb(253, 154, 49);
+}
+#btn2{
+    border: 2px solid rgb(7, 121, 114);
+    color: rgb(7, 121, 114);
+}
+#btn3{
+    border: 2px solid rgb(10, 73, 83);
+    color: rgb(10, 73, 83);
+}
+#btn1:hover{
+    border: 2px solid white;
+    background-color: rgb(253, 154, 49);
+    color: white;
+}
+#btn2:hover{
+    border: 2px solid white;
+    background-color: rgb(7, 121, 114);
+    color: white;
+}
+#btn3:hover{
+    border: 2px solid white;
+    background-color: rgb(10, 73, 83);
+    color: white;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;   
+}
+@media all and (max-width: 768px) {
+    .card-container{
+        flex-direction: column;
+    }
+}
